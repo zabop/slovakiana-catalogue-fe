@@ -1,0 +1,23 @@
+{
+  "census": 1930,
+  "generated": "2026-10-17",
+  "sheets": [
+    {
+      "id": "cair-ko27ypy",
+      "district": "Nové Zámky",
+      "municipality": "Nové Zámky",
+      "address": "Michal Bašta 10/508",
+      "persons": [
+        { "surname": "Kaffka", "name": "Alexander", "born": "12. apríl 1886", "relation": "majiteľ bytu" },
+        { "surname": "Kafková", "name": "Anna", "born": "4. júla 1879", "relation": "manželka" },
+        { "surname": "Kafka", "name": "Alexander", "born": "21. jan. 1918", "relation": "syn" },
+        { "surname": "Peczina", "name": "Rudolf", "born": "15.[?] marca 1899", "relation": "kost. [?]" },
+        { "surname": "Racsková", "name": "Elena", "born": "21. januára 1877", "relation": "majiteľka bytu" },
+        { "surname": "Racsková", "name": "Ružena", "born": "17. júna 1905", "relation": "dcéra" },
+        { "surname": "Racska", "name": "Viktor", "born": "1. marca 1911", "relation": "syn" },
+        { "surname": "Hloboki", "name": "Ludovík", "born": "28. júla 1875", "relation": "majiteľ bytu" },
+        { "surname": "Hloboki", "name": "Anna", "born": "6. apríl 1875", "relation": "manželka" }
+      ]
+    }
+  ]
+}
