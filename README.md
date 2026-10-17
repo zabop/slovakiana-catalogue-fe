@@ -1,4 +1,4 @@
-# 1930 Census Name Index
+# 1930 Czechoslovak Census
 
 A static website for searching people in the 1930 Czechoslovak census sheets
 that [slovakiana.sk](https://slovakiana.sk/en/census-forms) has scanned.
@@ -16,6 +16,7 @@ a case- and diacritic-insensitive substring match, all filled fields must match.
 | `style.css` | styling |
 | `app.js` | loads the data and runs the search in the browser |
 | `data/records.json` | the index, one entry per census sheet |
+| `.github/workflows/ci.yaml` | deploys the site to GitHub Pages on every push to `master` |
 
 No build step, no dependencies.
 
@@ -33,8 +34,9 @@ Then open <http://localhost:8080>. Stop with Ctrl-C.
 ## Data format
 
 `data/records.json` holds one object per sheet, with the people on it.
-The pipeline in the repository root (`download.py`, `transcribe.py`) produces
-one markdown transcription per sheet; convert those into this shape:
+The transcription pipeline lives in
+[zabop/slovakiana-catalogue](https://github.com/zabop/slovakiana-catalogue)
+and produces one markdown file per sheet; convert those into this shape:
 
 ```json
 {
@@ -62,10 +64,9 @@ one markdown transcription per sheet; convert those into this shape:
 
 The sample file contains the one sheet transcribed so far (`cair-ko27ypy`).
 
-## Deploy to GitHub Pages
+## Deploy
 
-Everything uses relative paths, so the site works under a sub-path such as
-`https://zabop.github.io/slovakiana-catalogue/`. In the repository settings,
-point Pages at the branch and folder containing these files (GitHub only
-offers `/` or `/docs`, so either rename this folder to `docs` or publish it
-with the `actions/upload-pages-artifact` workflow using `path: frontend`).
+Pushing to `master` runs `.github/workflows/ci.yaml`, which publishes the
+repository root to GitHub Pages at <https://zabop.github.io/slovakiana-catalogue-fe/>.
+One-time setup: in the repository settings under Pages, set Source to
+"GitHub Actions".
