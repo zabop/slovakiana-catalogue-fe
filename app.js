@@ -29,10 +29,7 @@ const collator = new Intl.Collator("sk");
 const unique = (values) => [...new Set(values)].sort(collator.compare);
 
 const norm = (s) =>
-  (s || "")
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    .toLowerCase();
+  (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 
 fetch("data/records.json")
   .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
@@ -89,7 +86,7 @@ const listJoin = (items) =>
     : items[0] || "";
 
 // One sentence for the header: counts, then the municipalities grouped by
-// district, e.g. "618 names on 100 sheets from the municipalities of Komárno
+// district, e.g. "618 names from 100 sheets from the municipalities of Komárno
 // and Zemianska Olča (Komárno district) and Veľké Zlievce (Modrý Kameň district)."
 function describeCoverage() {
   const groups = districts
@@ -97,7 +94,9 @@ function describeCoverage() {
     .sort((a, b) => collator.compare(a.municipalities[0], b.municipalities[0]))
     .map((g) => `${listJoin(g.municipalities)} (${g.district} district)`);
   const noun = pairs.length === 1 ? "municipality" : "municipalities";
-  return `${people.length} names on ${sheetCount} sheets from the ${noun} of ${listJoin(groups)}.`;
+  return `${
+    people.length
+  } names from ${sheetCount} sheets from the ${noun} of ${listJoin(groups)}.`;
 }
 
 function fillSelect(select, values, anyLabel) {
