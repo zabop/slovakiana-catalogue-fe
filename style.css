@@ -144,3 +144,11 @@ td a { white-space: nowrap; }
   color: var(--muted);
   font-family: system-ui, sans-serif;
 }
+
+footer {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+}
+footer p { margin: 0; }
