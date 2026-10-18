@@ -1,71 +1,90 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>1930 Czechoslovak Census</title>
-  <link rel="stylesheet" href="style.css?v=7">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>1930 Czechoslovak Census</title>
+    <link rel="stylesheet" href="style.css?v=7" />
+  </head>
+  <body>
+    <header>
+      <h1>1930 Czechoslovak Census</h1>
+      <!-- The second sentence (counts and coverage) is filled in from the data by app.js. -->
+      <p>
+        Incomplete name index of the 1930 Czechoslovak census sheets accessible
+        on <a href="https://slovakiana.sk/en/census-forms">slovakiana.sk</a>.
+        <span id="coverage"></span>
+      </p>
+    </header>
 
-  <header>
-    <h1>1930 Czechoslovak Census</h1>
-    <!-- The second sentence (counts and coverage) is filled in from the data by app.js. -->
-    <p>Incomplete name index of the 1930 Czechoslovak census sheets scanned by
-      <a href="https://slovakiana.sk/en/census-forms">slovakiana.sk</a>.
-      <span id="coverage"></span></p>
-  </header>
-
-  <main>
-    <!-- The form's columns mirror the table's (see style.css), so each field
+    <main>
+      <!-- The form's columns mirror the table's (see style.css), so each field
          sits above the column it filters. Keep the two orders in sync. -->
-    <form id="search">
-      <label>First name <input name="name" autocomplete="off" placeholder="e.g. Anna"></label>
-      <label>Surname <input name="surname" autocomplete="off" placeholder="e.g. Kafka"></label>
-      <label>District <select name="district"><option value="">Any district</option></select></label>
-      <label>Municipality <select name="municipality"><option value="">Any municipality</option></select></label>
-      <div class="actions">
-        <button type="submit">Search</button>
-        <button type="button" id="clear" class="ghost">Clear</button>
+      <form id="search">
+        <label
+          >First name
+          <input name="name" autocomplete="off" placeholder="e.g. Anna"
+        /></label>
+        <label
+          >Surname
+          <input name="surname" autocomplete="off" placeholder="e.g. Kafka"
+        /></label>
+        <label
+          >District
+          <select name="district">
+            <option value="">Any district</option>
+          </select></label
+        >
+        <label
+          >Municipality
+          <select name="municipality">
+            <option value="">Any municipality</option>
+          </select></label
+        >
+        <div class="actions">
+          <button type="submit">Search</button>
+          <button type="button" id="clear" class="ghost">Clear</button>
+        </div>
+      </form>
+
+      <p id="status">Loading index…</p>
+
+      <div class="scroll">
+        <table id="results" hidden>
+          <colgroup>
+            <col class="name" />
+            <col class="surname" />
+            <col class="district" />
+            <col class="municipality" />
+            <col class="sheet" />
+          </colgroup>
+          <thead>
+            <tr>
+              <th>First name</th>
+              <th>Surname</th>
+              <th>District</th>
+              <th>Municipality</th>
+              <th>Sheet</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
       </div>
-    </form>
 
-    <p id="status">Loading index…</p>
+      <nav id="pager" class="pager" aria-label="Pagination" hidden>
+        <button type="button" id="prev">← Previous</button>
+        <span id="page-label"></span>
+        <button type="button" id="next">Next →</button>
+      </nav>
+    </main>
 
-    <div class="scroll">
-      <table id="results" hidden>
-        <colgroup>
-          <col class="name">
-          <col class="surname">
-          <col class="district">
-          <col class="municipality">
-          <col class="sheet">
-        </colgroup>
-        <thead>
-          <tr>
-            <th>First name</th>
-            <th>Surname</th>
-            <th>District</th>
-            <th>Municipality</th>
-            <th>Sheet</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
+    <footer>
+      <p>
+        Are you interested in having access to a complete set of sheets? Contact
+        us at: <a href="mailto:hi@scitanie1930.sk">hi@scitanie1930.sk</a>.
+      </p>
+    </footer>
 
-    <nav id="pager" class="pager" aria-label="Pagination" hidden>
-      <button type="button" id="prev">← Previous</button>
-      <span id="page-label"></span>
-      <button type="button" id="next">Next →</button>
-    </nav>
-  </main>
-
-  <footer>
-    <p>Are you interested in having access to a complete set of sheets?
-      Contact us at: <a href="mailto:hi@scitanie1930.sk">hi@scitanie1930.sk</a>.</p>
-  </footer>
-
-  <script src="app.js?v=6"></script>
-</body>
+    <script src="app.js?v=6"></script>
+  </body>
 </html>
