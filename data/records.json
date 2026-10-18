@@ -1373,49 +1373,370 @@
       "district": "Modrý Kameň",
       "municipality": "Veľké Zlievce",
       "address": "č. 196",
-      "persons": []
+      "persons": [
+        {
+          "surname": "Melicherčík",
+          "name": "Mária"
+        },
+        {
+          "surname": "Melicherčíková",
+          "name": "Zuzanna"
+        },
+        {
+          "surname": "Melicherčík",
+          "name": "Ján"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzi9",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 196a",
+      "persons": [
+        {
+          "surname": "Rajčok",
+          "name": "Juraj"
+        },
+        {
+          "surname": "Rajčoková",
+          "name": "Mária"
+        },
+        {
+          "surname": "Rajčok",
+          "name": "Juraj"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzic",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 196b",
+      "persons": [
+        {
+          "surname": "Ragač",
+          "name": "Pavel"
+        },
+        {
+          "surname": "Ragačová",
+          "name": "Anna"
+        },
+        {
+          "surname": "Ragač",
+          "name": "Pavel"
+        },
+        {
+          "surname": "Ragačová",
+          "name": "Mária"
+        },
+        {
+          "surname": "Ragač",
+          "name": "Pavel"
+        },
+        {
+          "surname": "Ragač",
+          "name": "Ján"
+        },
+        {
+          "surname": "Ragač",
+          "name": "Juraj"
+        },
+        {
+          "surname": "Ragač",
+          "name": "Michal"
+        },
+        {
+          "surname": "Ragač",
+          "name": "Andrej"
+        },
+        {
+          "surname": "Ragač",
+          "name": "Ján"
+        },
+        {
+          "surname": "Ragačová",
+          "name": "Katrena"
+        },
+        {
+          "surname": "Ragač",
+          "name": "Ján"
+        },
+        {
+          "surname": "Ragačová",
+          "name": "Anna"
+        },
+        {
+          "surname": "Ragačová",
+          "name": "Anna"
+        }
+      ]
     },
     {
       "id": "cair-kozzig",
       "district": "Modrý Kameň",
       "municipality": "Veľké Zlievce",
       "address": "č. 196c",
-      "persons": []
+      "persons": [
+        {
+          "surname": "Beňo",
+          "name": "Pavel"
+        },
+        {
+          "surname": "Beňová",
+          "name": "Mária"
+        },
+        {
+          "surname": "Beňová",
+          "name": "Anna"
+        },
+        {
+          "surname": "Beňo",
+          "name": "Pavel"
+        },
+        {
+          "surname": "Beňová",
+          "name": "Zuza"
+        },
+        {
+          "surname": "Beňová",
+          "name": "Mária"
+        },
+        {
+          "surname": "Beňová",
+          "name": "Katrena"
+        },
+        {
+          "surname": "Hudianková",
+          "name": "Zuza",
+          "uncertain": true
+        }
+      ]
     },
     {
       "id": "cair-kozzij",
       "district": "Modrý Kameň",
       "municipality": "Veľké Zlievce",
       "address": "č. 197",
-      "persons": []
+      "persons": [
+        {
+          "surname": "Zdycha",
+          "name": "Pavel"
+        },
+        {
+          "surname": "Zdychová",
+          "name": "Zuzanna"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzim",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 197a",
+      "persons": [
+        {
+          "surname": "Chlpoš",
+          "name": "Juraj"
+        },
+        {
+          "surname": "Chlpoš",
+          "name": "Dora"
+        },
+        {
+          "surname": "Chlpoš",
+          "name": "Ján"
+        },
+        {
+          "surname": "Chlpoš",
+          "name": "Juraj"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzip",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 198",
+      "persons": [
+        {
+          "surname": "Banka",
+          "name": "Ján"
+        },
+        {
+          "surname": "Banková",
+          "name": "Zuzanna"
+        },
+        {
+          "surname": "Banka",
+          "name": "Anna"
+        },
+        {
+          "surname": "Banka",
+          "name": "Ján"
+        },
+        {
+          "surname": "Banková",
+          "name": "Katarina"
+        },
+        {
+          "surname": "Banka",
+          "name": "Pavel"
+        },
+        {
+          "surname": "Banková",
+          "name": "Zuza"
+        },
+        {
+          "surname": "Banková",
+          "name": "Zuza"
+        },
+        {
+          "surname": "Banková",
+          "name": "Anna"
+        },
+        {
+          "surname": "Banková",
+          "name": "Mária"
+        },
+        {
+          "surname": "Banka",
+          "name": "Pavel"
+        }
+      ]
     },
     {
       "id": "cair-kozzir",
       "district": "Modrý Kameň",
       "municipality": "Veľké Zlievce",
       "address": "č. 198a",
-      "persons": []
+      "persons": [
+        {
+          "surname": "Kičin",
+          "name": "Pavel",
+          "uncertain": true
+        },
+        {
+          "surname": "Kičinová",
+          "name": "Anna"
+        },
+        {
+          "surname": "Kičin",
+          "name": "Juraj"
+        }
+      ]
     },
     {
       "id": "cair-kozziv",
       "district": "Modrý Kameň",
       "municipality": "Veľké Zlievce",
       "address": "č. 198b",
-      "persons": []
+      "persons": [
+        {
+          "surname": "Chlpoš",
+          "name": "Ján"
+        },
+        {
+          "surname": "Chlpošová",
+          "name": "Anna"
+        },
+        {
+          "surname": "Chlpoš",
+          "name": "Ján"
+        },
+        {
+          "surname": "Chlpoš",
+          "name": "Juraj"
+        },
+        {
+          "surname": "Chlpoš",
+          "name": "Pavel"
+        },
+        {
+          "surname": "Chlpošová",
+          "name": "Anna"
+        },
+        {
+          "surname": "Chlpoš",
+          "name": "Andrej"
+        },
+        {
+          "surname": "Chlpošová",
+          "name": "Anna"
+        }
+      ]
     },
     {
       "id": "cair-kozzix",
       "district": "Modrý Kameň",
       "municipality": "Veľké Zlievce",
       "address": "č. 198c",
-      "persons": []
+      "persons": [
+        {
+          "surname": "Tomáš",
+          "name": "Pavel"
+        },
+        {
+          "surname": "Tomášová",
+          "name": "Anna"
+        },
+        {
+          "surname": "Tomáš",
+          "name": "Pavel"
+        }
+      ]
     },
     {
       "id": "cair-kozzj0",
       "district": "Modrý Kameň",
       "municipality": "Veľké Zlievce",
       "address": "č. 199",
-      "persons": []
+      "persons": [
+        {
+          "surname": "Hudian",
+          "name": "Juraj"
+        },
+        {
+          "surname": "Hudianová",
+          "name": "Mária"
+        },
+        {
+          "surname": "Hudian",
+          "name": "Ján"
+        },
+        {
+          "surname": "Hudianová",
+          "name": "Anna"
+        },
+        {
+          "surname": "Hudianová",
+          "name": "Anna"
+        },
+        {
+          "surname": "Hudianová",
+          "name": "Mária"
+        },
+        {
+          "surname": "Hudian",
+          "name": "Ján"
+        },
+        {
+          "surname": "Galgóci",
+          "name": "František"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzj3",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 199",
+      "persons": [
+        {
+          "surname": "Galgóci",
+          "name": "František"
+        }
+      ]
     },
     {
       "id": "cair-kozzj6",
@@ -1429,28 +1750,1537 @@
       "district": "Modrý Kameň",
       "municipality": "Veľké Zlievce",
       "address": "č. 200a",
-      "persons": []
+      "persons": [
+        {
+          "surname": "Dvořák",
+          "name": "František"
+        },
+        {
+          "surname": "Dvořáková",
+          "name": "Antonie"
+        },
+        {
+          "surname": "Dvořák",
+          "name": "Alois"
+        },
+        {
+          "surname": "Dvořák",
+          "name": "Eduard"
+        }
+      ]
     },
     {
       "id": "cair-kozzjc",
       "district": "Modrý Kameň",
       "municipality": "Veľké Zlievce",
       "address": "č. 203",
-      "persons": []
+      "persons": [
+        {
+          "surname": "Široký",
+          "name": "Andrej"
+        },
+        {
+          "surname": "Široká",
+          "name": "Mária"
+        },
+        {
+          "surname": "Snidor",
+          "name": "Ján",
+          "uncertain": true
+        },
+        {
+          "surname": "Snidorová",
+          "name": "Anna",
+          "uncertain": true
+        },
+        {
+          "surname": "Dorotovičová",
+          "name": "Zuzanna"
+        },
+        {
+          "surname": "Dorotovičová",
+          "name": "Anna"
+        },
+        {
+          "surname": "Dorotovičová",
+          "name": "Zuzanna"
+        },
+        {
+          "surname": "Dorotovič",
+          "name": "Pavel"
+        }
+      ]
     },
     {
       "id": "cair-kozzjf",
       "district": "Modrý Kameň",
       "municipality": "Veľké Zlievce",
       "address": "č. 222",
-      "persons": []
+      "persons": [
+        {
+          "surname": "Vinter",
+          "name": "Ján"
+        },
+        {
+          "surname": "Vinter",
+          "name": "Rozália"
+        },
+        {
+          "surname": "Vinter",
+          "name": "Zdenek"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzjj",
+      "district": "Komárno",
+      "municipality": "Zemianska Olča",
+      "address": "č. 453",
+      "persons": [
+        {
+          "surname": "Masár",
+          "name": "Ján"
+        },
+        {
+          "surname": "Masár",
+          "name": "Beta"
+        },
+        {
+          "surname": "Masár",
+          "name": "Anna"
+        },
+        {
+          "surname": "Masár",
+          "name": "Pavel"
+        },
+        {
+          "surname": "Masár",
+          "name": "Florián"
+        },
+        {
+          "surname": "Masár",
+          "name": "Lenorena",
+          "uncertain": true
+        },
+        {
+          "surname": "Masár",
+          "name": "Magdalena"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzjm",
+      "district": "Komárno",
+      "municipality": "Zemianska Olča",
+      "address": "č. 454",
+      "persons": [
+        {
+          "surname": "Gerši",
+          "name": "Ján"
+        },
+        {
+          "surname": "Gerši",
+          "name": "Lenera",
+          "uncertain": true
+        },
+        {
+          "surname": "Gerši",
+          "name": "Julius"
+        },
+        {
+          "surname": "Gerši",
+          "name": "Viktor"
+        }
+      ]
     },
     {
       "id": "cair-kozzjp",
       "district": "Komárno",
       "municipality": "Zemianska Olča",
       "address": "č. 455",
-      "persons": []
+      "persons": [
+        {
+          "surname": "Nehéz",
+          "name": "Štefan"
+        },
+        {
+          "surname": "Nehéz",
+          "name": "Terezie"
+        },
+        {
+          "surname": "Nehéz",
+          "name": "Alžbeta"
+        },
+        {
+          "surname": "Masár",
+          "name": "Ludmilla"
+        },
+        {
+          "surname": "Nehéz",
+          "name": "Anna"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzjs",
+      "district": "Komárno",
+      "municipality": "Zemianska Olča",
+      "address": "č. 456",
+      "persons": [
+        {
+          "surname": "Schubert",
+          "name": "Jozef"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzju",
+      "district": "Komárno",
+      "municipality": "Zemianska Olča",
+      "address": "č. 457",
+      "persons": [
+        {
+          "surname": "Jáni",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Jáni",
+          "name": "Terezia"
+        },
+        {
+          "surname": "Jáni",
+          "name": "Ignác"
+        },
+        {
+          "surname": "Jáni",
+          "name": "Mária"
+        },
+        {
+          "surname": "Jáni",
+          "name": "Ján"
+        },
+        {
+          "surname": "Jáni",
+          "name": "Mária"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzjy",
+      "district": "Komárno",
+      "municipality": "Zemianska Olča",
+      "address": "č. 458",
+      "persons": [
+        {
+          "surname": "Jáni",
+          "name": "Michal"
+        },
+        {
+          "surname": "Jáni",
+          "name": "Anna"
+        },
+        {
+          "surname": "Jáni",
+          "name": "Michal"
+        },
+        {
+          "surname": "Jáni",
+          "name": "Ján"
+        },
+        {
+          "surname": "Jáni",
+          "name": "František"
+        },
+        {
+          "surname": "Jáni",
+          "name": "Anna"
+        },
+        {
+          "surname": "Jáni",
+          "name": "Anton"
+        },
+        {
+          "surname": "Jáni",
+          "name": "Imrich"
+        },
+        {
+          "surname": "Stangl",
+          "name": "Mária"
+        },
+        {
+          "surname": "Žoužela",
+          "name": "Ladislav"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzk2",
+      "district": "Komárno",
+      "municipality": "Zemianska Olča",
+      "address": "č. 459",
+      "persons": [
+        {
+          "surname": "Jáni",
+          "name": "Ján"
+        },
+        {
+          "surname": "Jáni",
+          "name": "Katarina"
+        },
+        {
+          "surname": "Jáni",
+          "name": "Vojtech"
+        },
+        {
+          "surname": "Jáni",
+          "name": "Katarina"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzk5",
+      "district": "Komárno",
+      "municipality": "Zemianska Olča",
+      "address": "č. 460",
+      "persons": [
+        {
+          "surname": "Jáni",
+          "name": "Ján"
+        },
+        {
+          "surname": "Jáni",
+          "name": "Terézia"
+        },
+        {
+          "surname": "Jáni",
+          "name": "Ján"
+        },
+        {
+          "surname": "Jáni",
+          "name": "Terézia"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzk7",
+      "district": "Komárno",
+      "municipality": "Zemianska Olča",
+      "address": "č. 460",
+      "persons": [
+        {
+          "surname": "Zahumenský",
+          "name": "Štefán"
+        },
+        {
+          "surname": "Zahumenská",
+          "name": "Katarina"
+        },
+        {
+          "surname": "Zahumenská",
+          "name": "Anna"
+        },
+        {
+          "surname": "Zahumenská",
+          "name": "Katarina"
+        },
+        {
+          "surname": "Zahumenský",
+          "name": "Ján"
+        },
+        {
+          "surname": "Jáni",
+          "name": "Ján"
+        },
+        {
+          "surname": "Jáni",
+          "name": "Terézia"
+        },
+        {
+          "surname": "Jáni",
+          "name": "Ján"
+        },
+        {
+          "surname": "Jáni",
+          "name": "Terezie"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzka",
+      "district": "Komárno",
+      "municipality": "Zemianska Olča",
+      "address": "č. 461",
+      "persons": [
+        {
+          "surname": "Bödők",
+          "name": "Károly"
+        },
+        {
+          "surname": "Bödők",
+          "name": "Teréz"
+        },
+        {
+          "surname": "Bödők",
+          "name": "Jenő"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzkc",
+      "district": "Komárno",
+      "municipality": "Zemianska Olča",
+      "address": "č. 472",
+      "persons": [
+        {
+          "surname": "Vetro",
+          "name": "Ján"
+        },
+        {
+          "surname": "Vetro",
+          "name": "Jozefa"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzkj",
+      "district": "Komárno",
+      "municipality": "Komárno",
+      "address": "Finkenan 23/2565",
+      "persons": [
+        {
+          "surname": "Szász",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Szászová",
+          "name": "Margita"
+        },
+        {
+          "surname": "Budovský",
+          "name": "Ferdinand"
+        },
+        {
+          "surname": "Martinkovičová",
+          "name": "Alžbeta"
+        },
+        {
+          "surname": "Jašková",
+          "name": "Maria"
+        },
+        {
+          "surname": "Karpišová",
+          "name": "Julia"
+        },
+        {
+          "surname": "Adamek",
+          "name": "Ladislav"
+        },
+        {
+          "surname": "Balla",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Baranyai",
+          "name": "Dénes"
+        },
+        {
+          "surname": "Bublóš",
+          "name": "Alexander"
+        },
+        {
+          "surname": "Chyba",
+          "name": "Julius"
+        },
+        {
+          "surname": "Dékan",
+          "name": "František"
+        },
+        {
+          "surname": "Doboš",
+          "name": "Ladislav"
+        },
+        {
+          "surname": "Gáspár",
+          "name": "Ladislav"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzkm",
+      "district": "Komárno",
+      "municipality": "Komárno",
+      "address": "Finkenan 23/2565",
+      "persons": [
+        {
+          "surname": "Horváth",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Horváth",
+          "name": "Ludevít"
+        },
+        {
+          "surname": "Jaško",
+          "name": "Vincenc"
+        },
+        {
+          "surname": "Kajoš",
+          "name": "Ernest"
+        },
+        {
+          "surname": "Kántor",
+          "name": "Julius"
+        },
+        {
+          "surname": "Karly",
+          "name": "Gustáv"
+        },
+        {
+          "surname": "Lőrinc",
+          "name": "Imrich"
+        },
+        {
+          "surname": "Lukačovič",
+          "name": "Julius"
+        },
+        {
+          "surname": "Mokó",
+          "name": "Koloman"
+        },
+        {
+          "surname": "Orosz",
+          "name": "Andrej"
+        },
+        {
+          "surname": "Púpoš",
+          "name": "Alexander"
+        },
+        {
+          "surname": "Štrbó",
+          "name": "Géza"
+        },
+        {
+          "surname": "Szalai",
+          "name": "Géza"
+        },
+        {
+          "surname": "Udvaroš",
+          "name": "Vojtech"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzkp",
+      "district": "Komárno",
+      "municipality": "Komárno",
+      "address": "Finkenan 23/2565",
+      "persons": [
+        {
+          "surname": "Urban",
+          "name": "Ján"
+        },
+        {
+          "surname": "Vadkerti",
+          "name": "Alexander"
+        },
+        {
+          "surname": "Vangel",
+          "name": "Ignác"
+        },
+        {
+          "surname": "Vörös",
+          "name": "František"
+        },
+        {
+          "surname": "Vredlík",
+          "name": "Gergely"
+        },
+        {
+          "surname": "Zsidó",
+          "name": "Mikuláš"
+        },
+        {
+          "surname": "Tóth",
+          "name": "Juraj"
+        },
+        {
+          "surname": "Balogová",
+          "name": "Helena"
+        },
+        {
+          "surname": "Bíróová",
+          "name": "Helena"
+        },
+        {
+          "surname": "Bogdányová",
+          "name": "Maria"
+        },
+        {
+          "surname": "Bogdányiová",
+          "name": "Maria"
+        },
+        {
+          "surname": "Cengel",
+          "name": "Julia"
+        },
+        {
+          "surname": "Fába",
+          "name": "Julia"
+        },
+        {
+          "surname": "Góra",
+          "name": "Margita"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzmw",
+      "district": "Komárno",
+      "municipality": "Komárno",
+      "address": "Finkenan 23/2565",
+      "persons": [
+        {
+          "surname": "Juhászová",
+          "name": "Margita"
+        },
+        {
+          "surname": "Karácsonyová",
+          "name": "Kristina"
+        },
+        {
+          "surname": "Kováč",
+          "name": "Alžbeta"
+        },
+        {
+          "surname": "Kováč",
+          "name": "Helena"
+        },
+        {
+          "surname": "Lukačovič",
+          "name": "Maria"
+        },
+        {
+          "surname": "Meštra",
+          "name": "Margita"
+        },
+        {
+          "surname": "Mériová",
+          "name": "Katalin"
+        },
+        {
+          "surname": "Molnárová",
+          "name": "Klára"
+        },
+        {
+          "surname": "Nagyová",
+          "name": "Irena"
+        },
+        {
+          "surname": "Pogányová",
+          "name": "Alžbeta"
+        },
+        {
+          "surname": "Pušová",
+          "name": "Irena"
+        },
+        {
+          "surname": "Sándorová",
+          "name": "Lenke"
+        },
+        {
+          "surname": "Szekerešová",
+          "name": "Vilma"
+        },
+        {
+          "surname": "Sitka",
+          "name": "Maria"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzmz",
+      "district": "Komárno",
+      "municipality": "Komárno",
+      "address": "Finkenan 23/2565",
+      "persons": [
+        {
+          "surname": "Martinkovičová",
+          "name": "Alžbeta"
+        },
+        {
+          "surname": "Jašková",
+          "name": "Maria"
+        },
+        {
+          "surname": "Adámek",
+          "name": "Ladislav"
+        },
+        {
+          "surname": "Dékan",
+          "name": "František"
+        },
+        {
+          "surname": "Kajoš",
+          "name": "Ernest"
+        },
+        {
+          "surname": "Mokó",
+          "name": "Koloman"
+        },
+        {
+          "surname": "Balogová",
+          "name": "Helena"
+        },
+        {
+          "surname": "Meštra",
+          "name": "Margita"
+        },
+        {
+          "surname": "Pušová",
+          "name": "Irena"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzn1",
+      "district": "Komárno",
+      "municipality": "Komárno",
+      "address": "Finkenan 23/2566",
+      "persons": [
+        {
+          "surname": "Suchý",
+          "name": "František"
+        },
+        {
+          "surname": "Suchá",
+          "name": "Vlasta"
+        },
+        {
+          "surname": "Suchý",
+          "name": "František"
+        },
+        {
+          "surname": "Suchý",
+          "name": "Milan"
+        },
+        {
+          "surname": "Babišová",
+          "name": "Vincencia"
+        },
+        {
+          "surname": "Paťák",
+          "name": "Pavel"
+        },
+        {
+          "surname": "Paťáková",
+          "name": "Katarina"
+        },
+        {
+          "surname": "Paťáková",
+          "name": "Marta"
+        },
+        {
+          "surname": "Petrášová",
+          "name": "Maria"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzn5",
+      "district": "Komárno",
+      "municipality": "Komárno",
+      "address": "ll. Bašta",
+      "persons": [
+        {
+          "surname": "Mosig",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Hoferica",
+          "name": "Andrej"
+        },
+        {
+          "surname": "Kaimel",
+          "name": "Vilibald"
+        },
+        {
+          "surname": "Krams",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Mahal",
+          "name": "Ondrej"
+        },
+        {
+          "surname": "Balošák",
+          "name": "Ján"
+        },
+        {
+          "surname": "Dvořák",
+          "name": "Karol"
+        },
+        {
+          "surname": "Hackenberger",
+          "name": "Vojtech"
+        },
+        {
+          "surname": "Lackó",
+          "name": "Ján"
+        },
+        {
+          "surname": "Lavemann",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Starch",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Taský",
+          "name": "Štefan"
+        },
+        {
+          "surname": "Weigend",
+          "name": "Erich"
+        },
+        {
+          "surname": "Fiala",
+          "name": "Vojtech"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzqu",
+      "district": "Komárno",
+      "municipality": "Komárno",
+      "address": "ll. Bašta",
+      "persons": [
+        {
+          "surname": "Heidenreich",
+          "name": "František"
+        },
+        {
+          "surname": "Helfensdörfer",
+          "name": "Ján"
+        },
+        {
+          "surname": "Hladký",
+          "name": "Štefan"
+        },
+        {
+          "surname": "Hermann",
+          "name": "Alfréd"
+        },
+        {
+          "surname": "Holuba",
+          "name": "Antonín"
+        },
+        {
+          "surname": "Jeníček",
+          "name": "Jaroslav"
+        },
+        {
+          "surname": "Jorda",
+          "name": "Alojz"
+        },
+        {
+          "surname": "Kaduch",
+          "name": "Ján"
+        },
+        {
+          "surname": "Kastner",
+          "name": "Vojtech"
+        },
+        {
+          "surname": "Korec",
+          "name": "Alexander"
+        },
+        {
+          "surname": "Kosebach",
+          "name": "Ján"
+        },
+        {
+          "surname": "Kühmel",
+          "name": "Alfréd"
+        },
+        {
+          "surname": "Lacković",
+          "name": "Antonín"
+        },
+        {
+          "surname": "Liebl",
+          "name": "Alfréd"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzqx",
+      "district": "Komárno",
+      "municipality": "Komárno",
+      "address": "ll. Bašta",
+      "persons": [
+        {
+          "surname": "Lischka",
+          "name": "Bohdan"
+        },
+        {
+          "surname": "Lőwinger",
+          "name": "Hermann"
+        },
+        {
+          "surname": "Ostrák",
+          "name": "Emil"
+        },
+        {
+          "surname": "Petrucha",
+          "name": "Štefan"
+        },
+        {
+          "surname": "Bermann",
+          "name": "Vlastimil"
+        },
+        {
+          "surname": "Praženica",
+          "name": "František"
+        },
+        {
+          "surname": "Poruba",
+          "name": "Martin"
+        },
+        {
+          "surname": "Rajčák",
+          "name": "Štefan"
+        },
+        {
+          "surname": "Sigovčák",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Sloboda",
+          "name": "Vavrinec"
+        },
+        {
+          "surname": "Vysudil",
+          "name": "Štefan"
+        },
+        {
+          "surname": "Valter",
+          "name": "Arnošt"
+        },
+        {
+          "surname": "Valter",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Bařík",
+          "name": "Štefan",
+          "uncertain": true
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzr0",
+      "district": "Komárno",
+      "municipality": "Komárno",
+      "address": "ll. Bašta",
+      "persons": [
+        {
+          "surname": "Bohunický",
+          "name": "Michal"
+        },
+        {
+          "surname": "Čopek",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Dedík",
+          "name": "Ján"
+        },
+        {
+          "surname": "Ernst",
+          "name": "Tomáš"
+        },
+        {
+          "surname": "Hajšo",
+          "name": "Peter"
+        },
+        {
+          "surname": "Halada",
+          "name": "František"
+        },
+        {
+          "surname": "Hodina",
+          "name": "Arnošt"
+        },
+        {
+          "surname": "Januška",
+          "name": "Ľud."
+        },
+        {
+          "surname": "Kleman",
+          "name": "František"
+        },
+        {
+          "surname": "Klimaček",
+          "name": "Štefan"
+        },
+        {
+          "surname": "Kousalik",
+          "name": "František"
+        },
+        {
+          "surname": "Kudláč",
+          "name": "Ján"
+        },
+        {
+          "surname": "Kudla",
+          "name": "Matej"
+        },
+        {
+          "surname": "Mančík",
+          "name": "Jozef"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzr3",
+      "district": "Komárno",
+      "municipality": "Komárno",
+      "address": "ll. Bašta",
+      "persons": [
+        {
+          "surname": "Matejkovič",
+          "name": "Štefan"
+        },
+        {
+          "surname": "Mazan",
+          "name": "Tomáš"
+        },
+        {
+          "surname": "Mičlo",
+          "name": "František"
+        },
+        {
+          "surname": "Mišiak",
+          "name": "Pavel"
+        },
+        {
+          "surname": "Novák",
+          "name": "Alojz"
+        },
+        {
+          "surname": "Mrfka",
+          "name": "František"
+        },
+        {
+          "surname": "Prekop",
+          "name": "Karol"
+        },
+        {
+          "surname": "Pleško",
+          "name": "Štefan"
+        },
+        {
+          "surname": "Škrabaň",
+          "name": "Vincenc"
+        },
+        {
+          "surname": "Slyš",
+          "name": "Vincenc"
+        },
+        {
+          "surname": "Stejskal",
+          "name": "Bohumil"
+        },
+        {
+          "surname": "Stichl",
+          "name": "František"
+        },
+        {
+          "surname": "Sucedka",
+          "name": "Antonín"
+        },
+        {
+          "surname": "Valica",
+          "name": "Alojz"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzr6",
+      "district": "Komárno",
+      "municipality": "Komárno",
+      "address": "ll. Bašta",
+      "persons": [
+        {
+          "surname": "Zukriegel",
+          "name": "František"
+        },
+        {
+          "surname": "Tuchek",
+          "name": "Ján"
+        },
+        {
+          "surname": "Lenš",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Beigl",
+          "name": "Rudolf"
+        },
+        {
+          "surname": "Bruckner",
+          "name": "Ján"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzr9",
+      "district": "Komárno",
+      "municipality": "Komárno",
+      "address": "ll. Bašta",
+      "persons": [
+        {
+          "surname": "Ambrož",
+          "name": "Ján"
+        },
+        {
+          "surname": "Petrásch",
+          "name": "Antonín"
+        },
+        {
+          "surname": "Křivánek",
+          "name": "Bohumil"
+        },
+        {
+          "surname": "Benau",
+          "name": "Dezider"
+        },
+        {
+          "surname": "Scholz",
+          "name": "František"
+        },
+        {
+          "surname": "Gobalec",
+          "name": "Peter"
+        },
+        {
+          "surname": "Tittel",
+          "name": "Josef"
+        },
+        {
+          "surname": "Csápka",
+          "name": "Viktor"
+        },
+        {
+          "surname": "Pech",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Bango",
+          "name": "Ludevít"
+        },
+        {
+          "surname": "Berko",
+          "name": "Rudolf"
+        },
+        {
+          "surname": "Derer",
+          "name": "Peter"
+        },
+        {
+          "surname": "Ditrich",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Dvořáček",
+          "name": "Jozef"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzvu",
+      "district": "Komárno",
+      "municipality": "Komárno",
+      "address": "ll. Bašta",
+      "persons": [
+        {
+          "surname": "Fabó",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Fico",
+          "name": "Michal"
+        },
+        {
+          "surname": "Fiedler",
+          "name": "Adolf"
+        },
+        {
+          "surname": "Gašparovič",
+          "name": "Vincenc"
+        },
+        {
+          "surname": "Greguš",
+          "name": "Imrich"
+        },
+        {
+          "surname": "Hampl",
+          "name": "Antonín"
+        },
+        {
+          "surname": "Janda",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Kotlár",
+          "name": "Vladislav"
+        },
+        {
+          "surname": "Lenhard",
+          "name": "František"
+        },
+        {
+          "surname": "Mališ",
+          "name": "Štefan"
+        },
+        {
+          "surname": "Milata",
+          "name": "Peter"
+        },
+        {
+          "surname": "Olbrich",
+          "name": "Arnošt"
+        },
+        {
+          "surname": "Šefčík",
+          "name": "František"
+        },
+        {
+          "surname": "Vogel",
+          "name": "Emil"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzvx",
+      "district": "Komárno",
+      "municipality": "Komárno",
+      "address": "ll. Bašta",
+      "persons": [
+        {
+          "surname": "Vyletel",
+          "name": "Pavel"
+        },
+        {
+          "surname": "Zelenák",
+          "name": "Ján"
+        },
+        {
+          "surname": "Zeman",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Odvárko",
+          "name": "Richard"
+        },
+        {
+          "surname": "Bakscha",
+          "name": "Štefan"
+        },
+        {
+          "surname": "Blaho",
+          "name": "Štefan"
+        },
+        {
+          "surname": "Bošiak",
+          "name": "Tomáš"
+        },
+        {
+          "surname": "Galik",
+          "name": "Antonín"
+        },
+        {
+          "surname": "Günther",
+          "name": "Jindrich"
+        },
+        {
+          "surname": "Grund",
+          "name": "Pavel"
+        },
+        {
+          "surname": "Hambach",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Harangozó",
+          "name": "Emil"
+        },
+        {
+          "surname": "Ehmig",
+          "name": "Erich"
+        },
+        {
+          "surname": "Iser",
+          "name": "Arnošt"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzw0",
+      "district": "Komárno",
+      "municipality": "Komárno",
+      "address": "ll. Bašta",
+      "persons": [
+        {
+          "surname": "Kováčik",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Kozai",
+          "name": "Julius"
+        },
+        {
+          "surname": "Kňorek",
+          "name": "Karol"
+        },
+        {
+          "surname": "Köllner",
+          "name": "Richard"
+        },
+        {
+          "surname": "Lukáč",
+          "name": "Štefan"
+        },
+        {
+          "surname": "Lang",
+          "name": "Adolf"
+        },
+        {
+          "surname": "Minár",
+          "name": "Ján"
+        },
+        {
+          "surname": "Müller",
+          "name": "Antonín"
+        },
+        {
+          "surname": "Marvan",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Šavrda",
+          "name": "Ján"
+        },
+        {
+          "surname": "Šegeda",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Schmiedl",
+          "name": "Vilém"
+        },
+        {
+          "surname": "Schmidl",
+          "name": "Vilém"
+        },
+        {
+          "surname": "Schmidt",
+          "name": "Arnošt"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzw3",
+      "district": "Komárno",
+      "municipality": "Komárno",
+      "address": "ll. Bašta",
+      "persons": [
+        {
+          "surname": "Tarkay",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Vršecký",
+          "name": "Jindrich"
+        },
+        {
+          "surname": "Zbonka",
+          "name": "Michal"
+        },
+        {
+          "surname": "Žikavský",
+          "name": "Ondrej"
+        },
+        {
+          "surname": "Šabo",
+          "name": "Vojtech"
+        },
+        {
+          "surname": "Akermann",
+          "name": "Emil"
+        },
+        {
+          "surname": "Németh",
+          "name": "Ján"
+        },
+        {
+          "surname": "Koreš",
+          "name": "Alfons"
+        },
+        {
+          "surname": "Grimm",
+          "name": "Eduard"
+        },
+        {
+          "surname": "Galambos",
+          "name": "Ludovík"
+        },
+        {
+          "surname": "Hahn",
+          "name": "Ján"
+        },
+        {
+          "surname": "Herza",
+          "name": "František"
+        },
+        {
+          "surname": "Števo",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Macák",
+          "name": "Ladislav"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzw6",
+      "district": "Komárno",
+      "municipality": "Komárno",
+      "address": "ll. Bašta",
+      "persons": [
+        {
+          "surname": "Pelán",
+          "name": "František"
+        },
+        {
+          "surname": "Malý",
+          "name": "Alojz"
+        },
+        {
+          "surname": "Hudec",
+          "name": "Michal"
+        },
+        {
+          "surname": "Cvach",
+          "name": "Zdenek"
+        },
+        {
+          "surname": "Kult",
+          "name": "Václav"
+        },
+        {
+          "surname": "Kovář",
+          "name": "Alois"
+        },
+        {
+          "surname": "Antalík",
+          "name": "Peter"
+        },
+        {
+          "surname": "Hladík",
+          "name": "František"
+        },
+        {
+          "surname": "Chajma",
+          "name": "Vojtech"
+        },
+        {
+          "surname": "Kalina",
+          "name": "Štefan"
+        },
+        {
+          "surname": "Krošlák",
+          "name": "Pavel"
+        },
+        {
+          "surname": "Macháček",
+          "name": "František"
+        },
+        {
+          "surname": "Vančo",
+          "name": "Stanislav"
+        },
+        {
+          "surname": "Adamec",
+          "name": "Klement"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzw9",
+      "district": "Komárno",
+      "municipality": "Komárno",
+      "address": "ll. Bašta",
+      "persons": [
+        {
+          "surname": "Antal",
+          "name": "Mikuláš"
+        },
+        {
+          "surname": "Buri",
+          "name": "Ján"
+        },
+        {
+          "surname": "Beník",
+          "name": "Michal"
+        },
+        {
+          "surname": "Boroš",
+          "name": "Vincenc"
+        },
+        {
+          "surname": "Dičer",
+          "name": "Ján"
+        },
+        {
+          "surname": "Hrivňák",
+          "name": "Michal"
+        },
+        {
+          "surname": "Hudec",
+          "name": "Vojtech"
+        },
+        {
+          "surname": "Choreň",
+          "name": "Ján"
+        },
+        {
+          "surname": "Chalupka",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Jančovič",
+          "name": "Ján"
+        },
+        {
+          "surname": "Janovias",
+          "name": "Antonín"
+        },
+        {
+          "surname": "Komoradský",
+          "name": "Pavel"
+        },
+        {
+          "surname": "Kotora",
+          "name": "Štefan"
+        },
+        {
+          "surname": "Kouba",
+          "name": "Ján"
+        }
+      ]
     }
   ]
 }

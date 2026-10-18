@@ -6,6 +6,15 @@
   --accent: #1f5f3f;
   --line: #d9d4c7;
   --control-h: 42px;
+
+  /* One column layout shared by the search form and the results table, so
+     each field sits above the column it filters. Must add up to 100%. */
+  --col-name: 18%;
+  --col-surname: 18%;
+  --col-district: 18%;
+  --col-municipality: 18%;
+  --col-sheet: 28%;
+  --table-min: 760px; /* below this the table scrolls and the form stacks */
 }
 
 * { box-sizing: border-box; }
@@ -25,23 +34,38 @@ a { color: var(--accent); }
 
 header { margin: 32px 0 24px; }
 header h1 { margin: 0 0 8px; font-size: 2.2rem; font-weight: normal; }
-header p { margin: 0; color: var(--muted); max-width: 60ch; }
+header p { margin: 0; color: var(--muted); max-width: 72ch; }
 
 form {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 12px;
+  grid-template-columns:
+    var(--col-name) var(--col-surname) var(--col-district)
+    var(--col-municipality) var(--col-sheet);
   align-items: end;
-  padding: 16px;
+  padding: 12px 0;
   background: var(--paper);
   border: 1px solid var(--line);
   border-radius: 6px;
   font-family: system-ui, sans-serif;
 }
+/* Same horizontal inset as the table cells, so a box's edge meets the start
+   of its column's text. */
+form > * { padding: 0 10px; min-width: 0; }
 
 label { display: flex; flex-direction: column; gap: 4px; font-size: 0.9rem; color: var(--muted); }
 
-/* Inputs, drop-downs and the button share one height so they line up. */
+.actions { display: flex; gap: 8px; }
+
+@media (max-width: 759px) {
+  form {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    padding: 16px;
+  }
+  form > * { padding: 0; }
+}
+
+/* Inputs, drop-downs and buttons share one height so they line up. */
 input, select, button {
   height: var(--control-h);
   font: inherit;
@@ -50,6 +74,7 @@ input, select, button {
 }
 
 input, select {
+  width: 100%;
   padding: 8px 10px;
   border: 1px solid var(--line);
   border-radius: 4px;
@@ -79,9 +104,18 @@ button {
   border: 0;
   border-radius: 4px;
   cursor: pointer;
+  white-space: nowrap;
 }
 button:hover { filter: brightness(1.1); }
 button:disabled { opacity: 0.5; cursor: default; filter: none; }
+
+/* Secondary action, e.g. Clear. */
+button.ghost {
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--line);
+}
+button.ghost:hover { background: var(--bg); filter: none; }
 
 #status { margin: 16px 0; color: var(--muted); font-family: system-ui, sans-serif; }
 
@@ -89,12 +123,20 @@ button:disabled { opacity: 0.5; cursor: default; filter: none; }
 
 table {
   width: 100%;
+  min-width: var(--table-min);
+  table-layout: fixed;
   border-collapse: collapse;
   background: var(--paper);
   border: 1px solid var(--line);
   font-size: 0.95rem;
 }
-th, td { padding: 8px 10px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+col.name { width: var(--col-name); }
+col.surname { width: var(--col-surname); }
+col.district { width: var(--col-district); }
+col.municipality { width: var(--col-municipality); }
+col.sheet { width: var(--col-sheet); }
+
+th, td { padding: 8px 10px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); overflow-wrap: break-word; }
 th { font-family: system-ui, sans-serif; font-weight: 600; font-size: 0.85rem; color: var(--muted); white-space: nowrap; }
 tbody tr:nth-child(even) { background: #faf8f3; }
 td a { white-space: nowrap; }

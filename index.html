@@ -4,33 +4,49 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>1930 Czechoslovak Census</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
 
   <header>
     <h1>1930 Czechoslovak Census</h1>
+    <!-- The second sentence (counts and coverage) is filled in from the data by app.js. -->
+    <p>Incomplete name index of the 1930 Czechoslovak census sheets scanned by
+      <a href="https://slovakiana.sk/en/census-forms">slovakiana.sk</a>.<br>
+      <span id="coverage"></span></p>
   </header>
 
   <main>
+    <!-- The form's columns mirror the table's (see style.css), so each field
+         sits above the column it filters. Keep the two orders in sync. -->
     <form id="search">
       <label>First name <input name="name" autocomplete="off" placeholder="e.g. Anna"></label>
       <label>Surname <input name="surname" autocomplete="off" placeholder="e.g. Kafka"></label>
       <label>District <select name="district"><option value="">Any district</option></select></label>
       <label>Municipality <select name="municipality"><option value="">Any municipality</option></select></label>
-      <button type="submit">Search</button>
+      <div class="actions">
+        <button type="submit">Search</button>
+        <button type="button" id="clear" class="ghost">Clear</button>
+      </div>
     </form>
 
     <p id="status">Loading index…</p>
 
     <div class="scroll">
       <table id="results" hidden>
+        <colgroup>
+          <col class="name">
+          <col class="surname">
+          <col class="district">
+          <col class="municipality">
+          <col class="sheet">
+        </colgroup>
         <thead>
           <tr>
             <th>First name</th>
             <th>Surname</th>
-            <th>Municipality</th>
             <th>District</th>
+            <th>Municipality</th>
             <th>Sheet</th>
           </tr>
         </thead>
@@ -45,6 +61,6 @@
     </nav>
   </main>
 
-  <script src="app.js"></script>
+  <script src="app.js?v=6"></script>
 </body>
 </html>

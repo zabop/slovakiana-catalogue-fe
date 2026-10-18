@@ -11,8 +11,12 @@ First name and surname are case- and diacritic-insensitive substring matches.
 District and municipality are drop-downs built from the data: the municipality
 list only offers municipalities of the chosen district, and choosing a
 municipality first selects its district, so only combinations that occur in
-the data can be searched. The search and the page number are kept in the URL,
-so a result page can be bookmarked or shared.
+the data can be searched. Clear empties all fields and shows the full list
+again. The search and the page number are kept in the URL, so a result page can
+be bookmarked or shared.
+
+The form's columns mirror the table's, so each field sits above the column it
+filters; the shared widths are the `--col-*` variables in `style.css`.
 
 ## Files
 
@@ -25,6 +29,10 @@ so a result page can be bookmarked or shared.
 | `.github/workflows/ci.yaml` | deploys the site to GitHub Pages on every push to`master` |
 
 No build step, no dependencies.
+
+`index.html` links `style.css` and `app.js` with a `?v=` query. Bump it when
+either file changes, otherwise browsers keep serving a cached copy for hours
+(neither the local server below nor GitHub Pages tells them not to).
 
 ## Run locally
 

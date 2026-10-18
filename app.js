@@ -15,6 +15,8 @@ const pager = document.getElementById("pager");
 const prevButton = document.getElementById("prev");
 const nextButton = document.getElementById("next");
 const pageLabel = document.getElementById("page-label");
+const clearButton = document.getElementById("clear");
+const coverage = document.getElementById("coverage");
 
 let people = [];
 let sheetCount = 0;
@@ -49,6 +51,7 @@ fetch("data/records.json")
     ];
     districts = unique(pairs.map((p) => p.district));
     fillSelect(form.district, districts, "Any district");
+    coverage.textContent = describeCoverage();
 
     // The search and the page number are kept in the URL so they can be
     // bookmarked or shared.
@@ -78,6 +81,24 @@ const districtsOf = (municipality) =>
   unique(
     pairs.filter((p) => p.municipality === municipality).map((p) => p.district),
   );
+
+// "a, b and c"
+const listJoin = (items) =>
+  items.length > 1
+    ? `${items.slice(0, -1).join(", ")} and ${items.at(-1)}`
+    : items[0] || "";
+
+// One sentence for the header: counts, then the municipalities grouped by
+// district, e.g. "618 names on 100 sheets from the municipalities of Komárno
+// and Zemianska Olča (Komárno district) and Veľké Zlievce (Modrý Kameň district)."
+function describeCoverage() {
+  const groups = districts
+    .map((d) => ({ district: d, municipalities: municipalitiesOf(d) }))
+    .sort((a, b) => collator.compare(a.municipalities[0], b.municipalities[0]))
+    .map((g) => `${listJoin(g.municipalities)} (${g.district} district)`);
+  const noun = pairs.length === 1 ? "municipality" : "municipalities";
+  return `${people.length} names on ${sheetCount} sheets from the ${noun} of ${listJoin(groups)}.`;
+}
 
 function fillSelect(select, values, anyLabel) {
   select.replaceChildren(
@@ -115,6 +136,14 @@ form.municipality.addEventListener("change", () =>
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   search(1);
+});
+
+clearButton.addEventListener("click", () => {
+  form.name.value = "";
+  form.surname.value = "";
+  setPlace("", "", false);
+  search(1);
+  form.name.focus();
 });
 
 prevButton.addEventListener("click", () => {
@@ -188,7 +217,8 @@ function goTo(toPage) {
 
 function row(p) {
   const tr = document.createElement("tr");
-  const cells = [p.name, p.surname, p.sheet.municipality, p.sheet.district];
+  // Same order as the table header and the form fields.
+  const cells = [p.name, p.surname, p.sheet.district, p.sheet.municipality];
   for (const text of cells) {
     const td = document.createElement("td");
     td.textContent = text || "";
