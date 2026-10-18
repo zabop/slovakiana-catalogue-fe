@@ -1,23 +1,1456 @@
 {
   "census": 1930,
-  "generated": "2026-10-17",
+  "generated": "2026-10-18",
   "sheets": [
     {
-      "id": "cair-ko27ypy",
-      "district": "Nové Zámky",
-      "municipality": "Nové Zámky",
-      "address": "Michal Bašta 10/508",
+      "id": "cair-kozzdp",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 52",
       "persons": [
-        { "surname": "Kaffka", "name": "Alexander", "born": "12. apríl 1886", "relation": "majiteľ bytu" },
-        { "surname": "Kafková", "name": "Anna", "born": "4. júla 1879", "relation": "manželka" },
-        { "surname": "Kafka", "name": "Alexander", "born": "21. jan. 1918", "relation": "syn" },
-        { "surname": "Peczina", "name": "Rudolf", "born": "15.[?] marca 1899", "relation": "kost. [?]" },
-        { "surname": "Racsková", "name": "Elena", "born": "21. januára 1877", "relation": "majiteľka bytu" },
-        { "surname": "Racsková", "name": "Ružena", "born": "17. júna 1905", "relation": "dcéra" },
-        { "surname": "Racska", "name": "Viktor", "born": "1. marca 1911", "relation": "syn" },
-        { "surname": "Hloboki", "name": "Ludovík", "born": "28. júla 1875", "relation": "majiteľ bytu" },
-        { "surname": "Hloboki", "name": "Anna", "born": "6. apríl 1875", "relation": "manželka" }
+        {
+          "surname": "Pribula",
+          "name": "Mihály"
+        },
+        {
+          "surname": "Pribula",
+          "name": "Ilon"
+        },
+        {
+          "surname": "Pribula",
+          "name": "Sándor"
+        },
+        {
+          "surname": "Makkai",
+          "name": "István"
+        },
+        {
+          "surname": "Makkai",
+          "name": "Zsófia"
+        }
       ]
+    },
+    {
+      "id": "cair-kozzds",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 53",
+      "persons": [
+        {
+          "surname": "Szabó",
+          "name": "Juliánna"
+        },
+        {
+          "surname": "Szabó",
+          "name": "Miklós"
+        },
+        {
+          "surname": "Szabó",
+          "name": "Géza"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzdv",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 54",
+      "persons": [
+        {
+          "surname": "Susztrik",
+          "name": "Veronika"
+        },
+        {
+          "surname": "Susztrik",
+          "name": "István"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzdx",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": null,
+      "persons": []
+    },
+    {
+      "id": "cair-kozze0",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 60",
+      "persons": [
+        {
+          "surname": "Béres",
+          "name": "Rozália"
+        },
+        {
+          "surname": "Béres",
+          "name": "Mária"
+        },
+        {
+          "surname": "Béres",
+          "name": "Bertalan"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozze3",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 61",
+      "persons": [
+        {
+          "surname": "Béres",
+          "name": "Károly"
+        },
+        {
+          "surname": "Béres",
+          "name": "Júliana"
+        },
+        {
+          "surname": "Hegedűs",
+          "name": "Miklós"
+        },
+        {
+          "surname": "Hegedűs",
+          "name": "Eszter"
+        },
+        {
+          "surname": "Hegedűs",
+          "name": "Géza"
+        },
+        {
+          "surname": "Hegedűs",
+          "name": "Miklós"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozze6",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 62",
+      "persons": [
+        {
+          "surname": "Kosztyn",
+          "name": "Károly"
+        },
+        {
+          "surname": "Kosztyn",
+          "name": "Gizella"
+        },
+        {
+          "surname": "Kosztyn",
+          "name": "Irén"
+        },
+        {
+          "surname": "Kosztyn",
+          "name": "Károly"
+        },
+        {
+          "surname": "Galambos",
+          "name": "Margit"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzea",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 63",
+      "persons": [
+        {
+          "surname": "Koleszár",
+          "name": "Mikuláš"
+        },
+        {
+          "surname": "Koleszárová",
+          "name": "Mária"
+        },
+        {
+          "surname": "Fennk",
+          "name": "Ivan",
+          "uncertain": true
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzed",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 64",
+      "persons": [
+        {
+          "surname": "Mihályi",
+          "name": "Júlia"
+        },
+        {
+          "surname": "Mihályi",
+          "name": "Etelka"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzeg",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 65",
+      "persons": []
+    },
+    {
+      "id": "cair-kozzej",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 66",
+      "persons": [
+        {
+          "surname": "Révész",
+          "name": "Ferencz"
+        },
+        {
+          "surname": "Révész",
+          "name": "István"
+        },
+        {
+          "surname": "Révész",
+          "name": "Jolán"
+        },
+        {
+          "surname": "Révész",
+          "name": "Jolán"
+        },
+        {
+          "surname": "Révész",
+          "name": "István"
+        },
+        {
+          "surname": "Révész",
+          "name": "Juliana"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzen",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 67",
+      "persons": [
+        {
+          "surname": "Porosztócki",
+          "name": "János"
+        },
+        {
+          "surname": "Terebesi",
+          "name": "Róza"
+        },
+        {
+          "surname": "Szatmári",
+          "name": "János"
+        },
+        {
+          "surname": "Szatmári",
+          "name": "Juliána"
+        },
+        {
+          "surname": "Szatmári",
+          "name": "József"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzep",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 65",
+      "persons": [
+        {
+          "surname": "Bakura",
+          "name": "Zsófia"
+        },
+        {
+          "surname": "Bakura",
+          "name": "Bertalan"
+        },
+        {
+          "surname": "Bakura",
+          "name": "Ilonka"
+        },
+        {
+          "surname": "Kujik",
+          "name": "Ilon"
+        },
+        {
+          "surname": "Matyi",
+          "name": "Erzsébet"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzes",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 69",
+      "persons": [
+        {
+          "surname": "Szabó",
+          "name": "István"
+        },
+        {
+          "surname": "Szabó",
+          "name": "Júliana"
+        },
+        {
+          "surname": "Szilágyi",
+          "name": "István"
+        },
+        {
+          "surname": "Nagy",
+          "name": "József"
+        },
+        {
+          "surname": "Nagy",
+          "name": "Rebeka"
+        },
+        {
+          "surname": "Nagy",
+          "name": "Miklós"
+        },
+        {
+          "surname": "Nagy",
+          "name": "Mária"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzev",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 70",
+      "persons": [
+        {
+          "surname": "Stark",
+          "name": "Adolf"
+        },
+        {
+          "surname": "Stark",
+          "name": "Bertalan"
+        },
+        {
+          "surname": "Stark",
+          "name": "Hermina"
+        },
+        {
+          "surname": "Stark",
+          "name": "Sarolta"
+        },
+        {
+          "surname": "Kertész",
+          "name": "István"
+        },
+        {
+          "surname": "Kertész",
+          "name": "Ilon"
+        },
+        {
+          "surname": "Kertész",
+          "name": "Ferencz"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzey",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 71",
+      "persons": [
+        {
+          "surname": "Katkó",
+          "name": "Ferencz"
+        },
+        {
+          "surname": "Katkó",
+          "name": "Amália"
+        },
+        {
+          "surname": "Katkó",
+          "name": "Sándor"
+        },
+        {
+          "surname": "Katkó",
+          "name": "Jolán"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzf1",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 72",
+      "persons": [
+        {
+          "surname": "László",
+          "name": "Pál"
+        },
+        {
+          "surname": "László",
+          "name": "Eszter"
+        },
+        {
+          "surname": "Katócs",
+          "name": "József"
+        },
+        {
+          "surname": "Katócs",
+          "name": "Mária"
+        },
+        {
+          "surname": "Katócs",
+          "name": "Sára"
+        },
+        {
+          "surname": "Katócs",
+          "name": "Géza"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzf4",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 73",
+      "persons": [
+        {
+          "surname": "Kovács",
+          "name": "Mihály"
+        },
+        {
+          "surname": "Kovács",
+          "name": "Gyula"
+        },
+        {
+          "surname": "Kovács",
+          "name": "Mária"
+        },
+        {
+          "surname": "Kovács",
+          "name": "Béla"
+        },
+        {
+          "surname": "Kovács",
+          "name": "Károly"
+        },
+        {
+          "surname": "Kovács",
+          "name": "Emília"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzf7",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 74",
+      "persons": [
+        {
+          "surname": "Révész",
+          "name": "József"
+        },
+        {
+          "surname": "Révész",
+          "name": "Júliana"
+        },
+        {
+          "surname": "Révész",
+          "name": "Béla"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzf9",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 75",
+      "persons": [
+        {
+          "surname": "Balog",
+          "name": "Lajos"
+        },
+        {
+          "surname": "Balogh",
+          "name": "Lajos"
+        },
+        {
+          "surname": "Balogh",
+          "name": "Hermina"
+        },
+        {
+          "surname": "Balogh",
+          "name": "Béla"
+        },
+        {
+          "surname": "Balogh",
+          "name": "Ilona"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzfc",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 76",
+      "persons": [
+        {
+          "surname": "Balogh",
+          "name": "Bertalan"
+        },
+        {
+          "surname": "Balogh",
+          "name": "Zsuzsána"
+        },
+        {
+          "surname": "Balogh",
+          "name": "Margit"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzfg",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 77",
+      "persons": [
+        {
+          "surname": "Somogyi",
+          "name": "Károly"
+        },
+        {
+          "surname": "Somogyi",
+          "name": "Erzsébet"
+        },
+        {
+          "surname": "Somogyi",
+          "name": "Jolán"
+        },
+        {
+          "surname": "Somogyi",
+          "name": "László"
+        },
+        {
+          "surname": "Somogyi",
+          "name": "Irén"
+        },
+        {
+          "surname": "Tolvaj",
+          "name": "Terézia"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzfj",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 78",
+      "persons": [
+        {
+          "surname": "Lukács",
+          "name": "Sándor"
+        },
+        {
+          "surname": "Lukács",
+          "name": "Piroska"
+        },
+        {
+          "surname": "Lukács",
+          "name": "Piroska"
+        },
+        {
+          "surname": "Lukács",
+          "name": "Sándor"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzfn",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": null,
+      "persons": []
+    },
+    {
+      "id": "cair-kozzfp",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 79",
+      "persons": [
+        {
+          "surname": "Urbán",
+          "name": "Bertalan"
+        },
+        {
+          "surname": "Urbán",
+          "name": "Emília"
+        },
+        {
+          "surname": "Urbán",
+          "name": "Jolán"
+        },
+        {
+          "surname": "Kovács",
+          "name": "Júliana"
+        },
+        {
+          "surname": "Balogh",
+          "name": "Péter"
+        },
+        {
+          "surname": "Balogh",
+          "name": "Anna"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzfr",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 80",
+      "persons": [
+        {
+          "surname": "Balogh",
+          "name": "Erzsébet"
+        },
+        {
+          "surname": "Balogh",
+          "name": "Miklós"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzfu",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 81",
+      "persons": [
+        {
+          "surname": "Kovács",
+          "name": "Gyula"
+        },
+        {
+          "surname": "Kovács",
+          "name": "Ilona"
+        },
+        {
+          "surname": "Berta",
+          "name": "Sarolta"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzfx",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 82",
+      "persons": [
+        {
+          "surname": "Kántor",
+          "name": "Mihály"
+        },
+        {
+          "surname": "Kántor",
+          "name": "Friska"
+        },
+        {
+          "surname": "Kántor",
+          "name": "Ilon"
+        },
+        {
+          "surname": "Szopó",
+          "name": "Erzsébet"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzg1",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 83",
+      "persons": [
+        {
+          "surname": "Szabó",
+          "name": "Bertalan"
+        },
+        {
+          "surname": "Szabó",
+          "name": "Gizella"
+        },
+        {
+          "surname": "Szabó",
+          "name": "Irén"
+        },
+        {
+          "surname": "Szabó",
+          "name": "Gyula"
+        },
+        {
+          "surname": "Tolvaj",
+          "name": "Ilona"
+        },
+        {
+          "surname": "Kiss",
+          "name": "Ferencz"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzg4",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 84",
+      "persons": [
+        {
+          "surname": "Berta",
+          "name": "Jáni"
+        },
+        {
+          "surname": "Berta",
+          "name": "János"
+        },
+        {
+          "surname": "Bernát",
+          "name": "Eszter"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzg6",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 85",
+      "persons": [
+        {
+          "surname": "Balogh",
+          "name": "Mihály"
+        },
+        {
+          "surname": "Balogh",
+          "name": "Ilon"
+        },
+        {
+          "surname": "Balogh",
+          "name": "Mihály"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzg9",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 86",
+      "persons": [
+        {
+          "surname": "Balogh",
+          "name": "Bertalan"
+        },
+        {
+          "surname": "Balogh",
+          "name": "Margit"
+        },
+        {
+          "surname": "Balogh",
+          "name": "Flóra"
+        },
+        {
+          "surname": "Balogh",
+          "name": "Ferencz"
+        },
+        {
+          "surname": "Balogh",
+          "name": "Eszter"
+        },
+        {
+          "surname": "Szabó",
+          "name": "László"
+        },
+        {
+          "surname": "Szabó",
+          "name": "Ilona"
+        },
+        {
+          "surname": "Szabó",
+          "name": "Margit"
+        },
+        {
+          "surname": "Szabó",
+          "name": "Jolán"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzgd",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 87",
+      "persons": [
+        {
+          "surname": "Kovács",
+          "name": "Sándor"
+        },
+        {
+          "surname": "Kovács",
+          "name": "Zsófia"
+        },
+        {
+          "surname": "Kovács",
+          "name": "István"
+        },
+        {
+          "surname": "Kovács",
+          "name": "Zsófia"
+        },
+        {
+          "surname": "Megyesi",
+          "name": "Jolán"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzgg",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 88",
+      "persons": [
+        {
+          "surname": "Friedman",
+          "name": "Eszter"
+        },
+        {
+          "surname": "Friedman",
+          "name": "Cili"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzgj",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 89",
+      "persons": [
+        {
+          "surname": "Balla",
+          "name": "Sándor"
+        },
+        {
+          "surname": "Balla",
+          "name": "Ilona"
+        },
+        {
+          "surname": "Balla",
+          "name": "Dezső"
+        },
+        {
+          "surname": "Balla",
+          "name": "Zsigmond"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzgm",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 90",
+      "persons": [
+        {
+          "surname": "Tolvaj",
+          "name": "Ferencz"
+        },
+        {
+          "surname": "Tolvaj",
+          "name": "Erzsébet"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzgo",
+      "district": "Kráľovský Chlumec",
+      "municipality": "Šalamúnová",
+      "address": "č. 90",
+      "persons": [
+        {
+          "surname": "Tolvaj",
+          "name": "János"
+        },
+        {
+          "surname": "Tolvaj",
+          "name": "Eszter"
+        },
+        {
+          "surname": "Tolvaj",
+          "name": "Bertalan"
+        },
+        {
+          "surname": "Tolvaj",
+          "name": "Rozália"
+        },
+        {
+          "surname": "Tolvaj",
+          "name": "János"
+        },
+        {
+          "surname": "Tolvaj",
+          "name": "István"
+        },
+        {
+          "surname": "Tolvaj",
+          "name": "Eszter"
+        },
+        {
+          "surname": "Tolvaj",
+          "name": "István"
+        },
+        {
+          "surname": "Tolvaj",
+          "name": "Gyula"
+        },
+        {
+          "surname": "Tolvaj",
+          "name": "Júlia"
+        },
+        {
+          "surname": "Tolvaj",
+          "name": "Jolán"
+        },
+        {
+          "surname": "Tolvaj",
+          "name": "Miklós"
+        },
+        {
+          "surname": "Tolvaj",
+          "name": "Margit"
+        },
+        {
+          "surname": "Szombat",
+          "name": "Ilon"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzgr",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 179",
+      "persons": [
+        {
+          "surname": "Szandel",
+          "name": "Dávid"
+        },
+        {
+          "surname": "Szandelová",
+          "name": "Berta"
+        },
+        {
+          "surname": "Szandelová",
+          "name": "Anna"
+        },
+        {
+          "surname": "Szandel",
+          "name": "Zdenek"
+        },
+        {
+          "surname": "Szandel",
+          "name": "Albert"
+        },
+        {
+          "surname": "Szandelová",
+          "name": "Erna"
+        },
+        {
+          "surname": "Szandel",
+          "name": "Vilian",
+          "uncertain": true
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzgv",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 180",
+      "persons": [
+        {
+          "surname": "Papšová",
+          "name": "Terezia"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzgy",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 171",
+      "persons": [
+        {
+          "surname": "Mondok",
+          "name": "Michal"
+        },
+        {
+          "surname": "Mondoková",
+          "name": "Terezia"
+        },
+        {
+          "surname": "Mondoková",
+          "name": "Viliam"
+        },
+        {
+          "surname": "Mondoková",
+          "name": "Alžbeta"
+        },
+        {
+          "surname": "Banka",
+          "name": "Ján"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzh0",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 182",
+      "persons": [
+        {
+          "surname": "Rozinant",
+          "name": "Ján",
+          "uncertain": true
+        },
+        {
+          "surname": "Rozinantová",
+          "name": "Rozália",
+          "uncertain": true
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzh3",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 183",
+      "persons": [
+        {
+          "surname": "Papšová",
+          "name": "Alžbeta"
+        },
+        {
+          "surname": "Kovácsová",
+          "name": "Júlia"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzh7",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 184",
+      "persons": [
+        {
+          "surname": "Bela",
+          "name": "Pavel"
+        },
+        {
+          "surname": "Bela",
+          "name": "Anna"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzh9",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 185",
+      "persons": [
+        {
+          "surname": "Bela",
+          "name": "Gabriel"
+        },
+        {
+          "surname": "Belá",
+          "name": "Alžbeta"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzhd",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 186",
+      "persons": [
+        {
+          "surname": "Bela",
+          "name": "Andrej"
+        },
+        {
+          "surname": "Bela",
+          "name": "Mária"
+        },
+        {
+          "surname": "Bela",
+          "name": "Margit"
+        },
+        {
+          "surname": "Bela",
+          "name": "Irena"
+        },
+        {
+          "surname": "Bela",
+          "name": "Ladislav"
+        },
+        {
+          "surname": "Bela",
+          "name": "Priška"
+        },
+        {
+          "surname": "Kmeti",
+          "name": "Terezia"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzhf",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 187",
+      "persons": [
+        {
+          "surname": "Rozinant",
+          "name": "Štefan"
+        },
+        {
+          "surname": "Rozinant",
+          "name": "Zuzanna"
+        },
+        {
+          "surname": "Kis",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Kis",
+          "name": "Mária"
+        },
+        {
+          "surname": "Kis",
+          "name": "Zdenek"
+        },
+        {
+          "surname": "Račková",
+          "name": "Terezia"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzhj",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 188",
+      "persons": [
+        {
+          "surname": "Szabados",
+          "name": "Štefan"
+        },
+        {
+          "surname": "Szabadosová",
+          "name": "Teréz"
+        },
+        {
+          "surname": "Szabados",
+          "name": "Štefan"
+        },
+        {
+          "surname": "Szabados",
+          "name": "Rozália"
+        },
+        {
+          "surname": "Szabados",
+          "name": "Gabriel"
+        },
+        {
+          "surname": "Szabadosová",
+          "name": "Mária"
+        },
+        {
+          "surname": "Szabadosová",
+          "name": "Jolana"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzhn",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 189",
+      "persons": [
+        {
+          "surname": "Szabados",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Szabadosová",
+          "name": "Terezia"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzhq",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 190",
+      "persons": [
+        {
+          "surname": "Szabados",
+          "name": "František"
+        },
+        {
+          "surname": "Szabadosová",
+          "name": "Margit"
+        },
+        {
+          "surname": "Szabados",
+          "name": "Ladislav"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzht",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 191",
+      "persons": [
+        {
+          "surname": "Sujažiak",
+          "name": "Juraj"
+        },
+        {
+          "surname": "Sujažiaková",
+          "name": "Mária"
+        },
+        {
+          "surname": "Sujažiak",
+          "name": "Ján"
+        },
+        {
+          "surname": "Sujažiaková",
+          "name": "Mária"
+        },
+        {
+          "surname": "Sujažiaková",
+          "name": "Anna"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzhw",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 192",
+      "persons": [
+        {
+          "surname": "Baláž",
+          "name": "Andrej"
+        },
+        {
+          "surname": "Balážová",
+          "name": "Anna"
+        },
+        {
+          "surname": "Baláž",
+          "name": "Andrej"
+        },
+        {
+          "surname": "Baláž",
+          "name": "Jozef"
+        },
+        {
+          "surname": "Baláž",
+          "name": "Juraj"
+        },
+        {
+          "surname": "Baláž",
+          "name": "Emil"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzhz",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 193",
+      "persons": [
+        {
+          "surname": "Kunštár",
+          "name": "Ján"
+        },
+        {
+          "surname": "Kunštárová",
+          "name": "Mária"
+        },
+        {
+          "surname": "Kunštárová",
+          "name": "Mária"
+        },
+        {
+          "surname": "Kunštárová",
+          "name": "Katrena"
+        },
+        {
+          "surname": "Kunštárová",
+          "name": "Madlena",
+          "uncertain": true
+        },
+        {
+          "surname": "Drugda",
+          "name": "Matúš"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzi1",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 194",
+      "persons": [
+        {
+          "surname": "Drugda",
+          "name": "Ján"
+        },
+        {
+          "surname": "Drugdová",
+          "name": "Mária"
+        },
+        {
+          "surname": "Drugda",
+          "name": "Ján"
+        },
+        {
+          "surname": "Drugdová",
+          "name": "Márta"
+        },
+        {
+          "surname": "Drugdová",
+          "name": "Katrena"
+        },
+        {
+          "surname": "Drugda",
+          "name": "Andrej"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzi3",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 195",
+      "persons": [
+        {
+          "surname": "Frčka",
+          "name": "Pavel"
+        },
+        {
+          "surname": "Frčková",
+          "name": "Zuzanna"
+        },
+        {
+          "surname": "Frčka",
+          "name": "Pavel"
+        },
+        {
+          "surname": "Frčková",
+          "name": "Zuza"
+        },
+        {
+          "surname": "Frčka",
+          "name": "Pavel"
+        }
+      ]
+    },
+    {
+      "id": "cair-kozzi6",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 196",
+      "persons": []
+    },
+    {
+      "id": "cair-kozzig",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 196c",
+      "persons": []
+    },
+    {
+      "id": "cair-kozzij",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 197",
+      "persons": []
+    },
+    {
+      "id": "cair-kozzir",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 198a",
+      "persons": []
+    },
+    {
+      "id": "cair-kozziv",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 198b",
+      "persons": []
+    },
+    {
+      "id": "cair-kozzix",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 198c",
+      "persons": []
+    },
+    {
+      "id": "cair-kozzj0",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 199",
+      "persons": []
+    },
+    {
+      "id": "cair-kozzj6",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 200",
+      "persons": []
+    },
+    {
+      "id": "cair-kozzj9",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 200a",
+      "persons": []
+    },
+    {
+      "id": "cair-kozzjc",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 203",
+      "persons": []
+    },
+    {
+      "id": "cair-kozzjf",
+      "district": "Modrý Kameň",
+      "municipality": "Veľké Zlievce",
+      "address": "č. 222",
+      "persons": []
+    },
+    {
+      "id": "cair-kozzjp",
+      "district": "Komárno",
+      "municipality": "Zemianska Olča",
+      "address": "č. 455",
+      "persons": []
     }
   ]
 }

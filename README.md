@@ -5,18 +5,24 @@ that [slovakiana.sk](https://slovakiana.sk/en/census-forms) has scanned.
 It is an independent project, not affiliated with slovakiana.sk or the
 Slovak National Archive; every result links back to the original sheet there.
 
-Four search fields: first name, surname, district, municipality. Matching is
-a case- and diacritic-insensitive substring match, all filled fields must match.
+The page lists everyone on load, 10 rows per page, sorted by surname and
+first name. Four search fields narrow the list, all filled fields must match.
+First name and surname are case- and diacritic-insensitive substring matches.
+District and municipality are drop-downs built from the data: the municipality
+list only offers municipalities of the chosen district, and choosing a
+municipality first selects its district, so only combinations that occur in
+the data can be searched. The search and the page number are kept in the URL,
+so a result page can be bookmarked or shared.
 
 ## Files
 
-| File | Purpose |
-|---|---|
-| `index.html` | the page |
-| `style.css` | styling |
-| `app.js` | loads the data and runs the search in the browser |
-| `data/records.json` | the index, one entry per census sheet |
-| `.github/workflows/ci.yaml` | deploys the site to GitHub Pages on every push to `master` |
+| File                          | Purpose                                                     |
+| ----------------------------- | ----------------------------------------------------------- |
+| `index.html`                | the page                                                    |
+| `style.css`                 | styling                                                     |
+| `app.js`                    | loads the data and runs the search in the browser           |
+| `data/records.json`         | the index, one entry per census sheet                       |
+| `.github/workflows/ci.yaml` | deploys the site to GitHub Pages on every push to`master` |
 
 No build step, no dependencies.
 
@@ -29,7 +35,7 @@ The page loads `data/records.json` with `fetch`, which browsers block on
 docker run --rm -p 8080:80 -v "$(pwd):/usr/share/nginx/html:ro" nginx:alpine
 ```
 
-Then open <http://localhost:8080>. Stop with Ctrl-C.
+Then open [http://localhost:8080](http://localhost:8080). Stop with Ctrl-C.
 
 ## Data format
 
@@ -67,6 +73,6 @@ The sample file contains the one sheet transcribed so far (`cair-ko27ypy`).
 ## Deploy
 
 Pushing to `master` runs `.github/workflows/ci.yaml`, which publishes the
-repository root to GitHub Pages at <https://zabop.github.io/slovakiana-catalogue-fe/>.
+repository root to GitHub Pages at [https://zabop.github.io/slovakiana-catalogue-fe/](https://zabop.github.io/slovakiana-catalogue-fe/).
 One-time setup: in the repository settings under Pages, set Source to
 "GitHub Actions".

@@ -5,6 +5,7 @@
   --muted: #5f5c55;
   --accent: #1f5f3f;
   --line: #d9d4c7;
+  --control-h: 42px;
 }
 
 * { box-sizing: border-box; }
@@ -40,20 +41,39 @@ form {
 
 label { display: flex; flex-direction: column; gap: 4px; font-size: 0.9rem; color: var(--muted); }
 
-input {
+/* Inputs, drop-downs and the button share one height so they line up. */
+input, select, button {
+  height: var(--control-h);
   font: inherit;
   font-size: 1rem;
+  line-height: 1.5;
+}
+
+input, select {
   padding: 8px 10px;
   border: 1px solid var(--line);
   border-radius: 4px;
+  background: var(--paper);
   color: var(--ink);
 }
-input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+input:focus, select:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+/* Drop the native select look (Safari ignores padding and border otherwise)
+   and draw our own chevron. */
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  padding-right: 32px;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path d='M1 1l5 5 5-5' fill='none' stroke='%235f5c55' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 11px center;
+  background-size: 12px 8px;
+  cursor: pointer;
+  text-overflow: ellipsis;
+}
 
 button {
-  font: inherit;
-  font-size: 1rem;
-  padding: 9px 20px;
+  padding: 0 20px;
   background: var(--accent);
   color: #fff;
   border: 0;
@@ -61,6 +81,7 @@ button {
   cursor: pointer;
 }
 button:hover { filter: brightness(1.1); }
+button:disabled { opacity: 0.5; cursor: default; filter: none; }
 
 #status { margin: 16px 0; color: var(--muted); font-family: system-ui, sans-serif; }
 
@@ -77,3 +98,13 @@ th, td { padding: 8px 10px; text-align: left; vertical-align: top; border-bottom
 th { font-family: system-ui, sans-serif; font-weight: 600; font-size: 0.85rem; color: var(--muted); white-space: nowrap; }
 tbody tr:nth-child(even) { background: #faf8f3; }
 td a { white-space: nowrap; }
+
+.pager {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: 16px 0;
+  color: var(--muted);
+  font-family: system-ui, sans-serif;
+}

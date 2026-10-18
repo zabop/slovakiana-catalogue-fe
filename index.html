@@ -16,10 +16,8 @@
     <form id="search">
       <label>First name <input name="name" autocomplete="off" placeholder="e.g. Anna"></label>
       <label>Surname <input name="surname" autocomplete="off" placeholder="e.g. Kafka"></label>
-      <label>District <input name="district" list="districts" autocomplete="off" placeholder="okres"></label>
-      <label>Municipality <input name="municipality" list="municipalities" autocomplete="off" placeholder="obec"></label>
-      <datalist id="districts"></datalist>
-      <datalist id="municipalities"></datalist>
+      <label>District <select name="district"><option value="">Any district</option></select></label>
+      <label>Municipality <select name="municipality"><option value="">Any municipality</option></select></label>
       <button type="submit">Search</button>
     </form>
 
@@ -39,6 +37,12 @@
         <tbody></tbody>
       </table>
     </div>
+
+    <nav id="pager" class="pager" aria-label="Pagination" hidden>
+      <button type="button" id="prev">← Previous</button>
+      <span id="page-label"></span>
+      <button type="button" id="next">Next →</button>
+    </nav>
   </main>
 
   <script src="app.js"></script>
