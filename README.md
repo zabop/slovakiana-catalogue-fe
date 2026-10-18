@@ -82,6 +82,9 @@ The sample file contains the one sheet transcribed so far (`cair-ko27ypy`).
 ## Deploy
 
 Pushing to `master` runs `.github/workflows/ci.yaml`, which publishes the
-repository root to GitHub Pages at [https://zabop.github.io/slovakiana-catalogue-fe/](https://zabop.github.io/slovakiana-catalogue-fe/).
+repository root to GitHub Pages at [https://1930.sk](https://1930.sk).
+The old address, `zabop.github.io/slovakiana-catalogue-fe`, redirects there.
 One-time setup: in the repository settings under Pages, set Source to
-"GitHub Actions".
+"GitHub Actions" and Custom domain to `1930.sk`. The domain's DNS lives at the
+registrar (HostCreators): the apex has GitHub Pages' A and AAAA addresses,
+`www` is a CNAME to `zabop.github.io`, and mail for the domain goes to Proton.
