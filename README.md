@@ -16,7 +16,8 @@ again. The search and the page number are kept in the URL, so a result page can
 be bookmarked or shared.
 
 The form's columns mirror the table's, so each field sits above the column it
-filters; the shared widths are the `--col-*` variables in `style.css`.
+filters; the Sheet column has a fixed width (`--col-sheet` in `style.css`) and
+the four data columns share the rest.
 
 ## Files
 

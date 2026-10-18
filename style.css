@@ -8,12 +8,10 @@
   --control-h: 42px;
 
   /* One column layout shared by the search form and the results table, so
-     each field sits above the column it filters. Must add up to 100%. */
-  --col-name: 18%;
-  --col-surname: 18%;
-  --col-district: 18%;
-  --col-municipality: 18%;
-  --col-sheet: 28%;
+     each field sits above the column it filters: the Sheet column is just
+     wide enough for its link (and the two buttons above it), the four data
+     columns share the rest equally. */
+  --col-sheet: 208px;
   --table-min: 760px; /* below this the table scrolls and the form stacks */
 }
 
@@ -35,12 +33,11 @@ a { color: var(--accent); }
 header { margin: 32px 0 24px; }
 header h1 { margin: 0 0 8px; font-size: 2.2rem; font-weight: normal; }
 header p { margin: 0; color: var(--muted); max-width: 72ch; }
+#coverage { display: block; margin-top: 8px; }
 
 form {
   display: grid;
-  grid-template-columns:
-    var(--col-name) var(--col-surname) var(--col-district)
-    var(--col-municipality) var(--col-sheet);
+  grid-template-columns: repeat(4, minmax(0, 1fr)) var(--col-sheet);
   align-items: end;
   padding: 12px 0;
   background: var(--paper);
@@ -130,10 +127,7 @@ table {
   border: 1px solid var(--line);
   font-size: 0.95rem;
 }
-col.name { width: var(--col-name); }
-col.surname { width: var(--col-surname); }
-col.district { width: var(--col-district); }
-col.municipality { width: var(--col-municipality); }
+/* Fixed layout gives columns without a width equal shares of the rest. */
 col.sheet { width: var(--col-sheet); }
 
 th, td { padding: 8px 10px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); overflow-wrap: break-word; }
